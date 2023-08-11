@@ -1,0 +1,73 @@
+.navbar-author {
+  background-color: #33333317;
+  height: 100%;
+  width: 112px;
+  position: fixed;
+  top: 0;
+  left: 0; /* Move the navbar off the left edge initially */
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s; /* Use the left property for sliding animation */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+.em {
+  color: white;
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 3px;
+}
+
+.li-auth {
+  color: white;
+  padding: 15px;
+  cursor: pointer;
+  margin-top: 25px;
+
+}
+
+li:hover {
+  transform: scale(1.15);
+
+}
+
+  
+  .avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px;
+    font-size: 13px;
+    margin-top: 30px;
+    margin-right: 5px;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  }
+  
+  .avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    text-align: center;
+  }
+  .navbar-author {
+    transition: transform 0.3s; 
+  }
+  
+  .navbar-author.show {
+    transform: translateX(0);
+  }
+  
+  /* Hide the navbar by moving it from right to left */
+  .navbar-author.hide {
+    transform: translateX(-112px);
+  }
+  

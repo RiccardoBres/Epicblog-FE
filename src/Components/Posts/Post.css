@@ -1,0 +1,71 @@
+.comment {
+    font-size: 16px;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.comment:hover {
+    background-color: #eaeaea;
+    color: black;
+}
+
+
+
+.card-container {
+    width: 18rem;
+    height: 580px;
+    margin: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-image: url(https://static.vecteezy.com/ti/vettori-gratis/p3/6401814-colorato-rosa-sfocato-sfondi-san-valentino-rosa-sfondo-astratto-gradiente-rosa-chiaro-illustrazione-gratuito-vettoriale.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #f6dada;
+}
+
+.card-content {
+    padding: 16px;
+}
+
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 12px;
+}
+
+.card-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.author{
+    cursor: pointer;
+    color: blue;
+}
+
+.em-position {
+    text-align: center;
+    margin-top: 30px;
+}
