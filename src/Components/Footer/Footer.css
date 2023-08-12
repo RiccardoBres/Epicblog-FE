@@ -4,18 +4,24 @@
     text-align: center; 
     bottom: 0; 
     width: 100%; 
-    height: 70px!important;
     margin-bottom: 0;
     margin-top: 10rem;
   }
 
 .dark-footer ul {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    gap: 5rem;
-}
+    gap: 0.5rem;
+} 
 p {
-  padding-top: 5px;
+  padding-top: 50px;
+}
+
+.logo-linkedin {
+  margin-top: 25px;
+  width: 70px;
+  height: 60px;
+  border-radius: 100%;
 }
 
