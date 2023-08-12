@@ -4,12 +4,24 @@
   width: 112px;
   position: fixed;
   top: 0;
-  left: 0; /* Move the navbar off the left edge initially */
+  left: 0; 
   padding-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  transition: transform 0.3s; /* Use the left property for sliding animation */
+  transition: transform 0.3s;
+}
+
+@media (max-width: 760px) {
+  .navbar-author {
+    display: none;
+  }
+
+  .avatar {
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+  }
 }
 
 ul {

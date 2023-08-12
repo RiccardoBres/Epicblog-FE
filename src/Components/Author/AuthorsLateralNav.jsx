@@ -21,7 +21,7 @@ const AuthorsLateralNav = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollThreshold = 300; // Imposta l'altezza alla quale vuoi mostrare la navbar
+      const scrollThreshold = 715; // Imposta l'altezza alla quale vuoi mostrare la navbar
       const scrollTop = window.scrollY;//Questa costante ottiene la posizione verticale dello scroll (scrollTop) della finestra del browser al momento dell'esecuzione della funzione handleScroll().
       setShowNavbar(scrollTop > scrollThreshold); // Mostra la navbar quando lo scroll è al di sotto dell'altezza specificata
     };

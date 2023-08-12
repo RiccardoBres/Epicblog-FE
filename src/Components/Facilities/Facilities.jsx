@@ -25,7 +25,7 @@ const Footer = () => {
   useEffect(() => {
     const handleScroll = () => {
       // Verifica la posizione dello scroll rispetto al carosello
-      const carouselHeight = 300;
+      const carouselHeight = 715;
       const scrollTop = window.scrollY;
       setShowNavbar(scrollTop > carouselHeight);
     };
