@@ -1,5 +1,4 @@
 .navbar-author {
-  background-color: #33333317;
   height: 100%;
   width: 112px;
   position: fixed;
@@ -30,7 +29,7 @@ ul {
   margin-top: 15px;
 }
 .em {
-  color: white;
+  color: black;
   margin-top: 10px;
   font-size: 20px;
   text-align: center;
@@ -38,7 +37,7 @@ ul {
 }
 
 .li-auth {
-  color: white;
+  color: black;
   padding: 15px;
   cursor: pointer;
   margin-top: 25px;

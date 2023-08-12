@@ -1,5 +1,4 @@
 .navbar-footer {
-    background-color: #33333317;
     height: 100%;
     width: 112px;
     position: fixed;
@@ -16,17 +15,35 @@
     list-style: none;
     padding: 0;
     margin-top: 30px;
-    color: rgba(241, 230, 230, 0.711);
+    color: white;
     
+}
+@media (max-width: 760px) {
+    .navbar-full {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      height: 100%;
+      width: 100px;
+      padding-top: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      transition: transform 0.3s;
+      z-index: 999;
+    }
+    .ul-footer {
+        list-style: none;
+        margin-top: 200px;
+    }
 }
 
 .ul-footer li {
-    color: rgba(62, 62, 62, 0.63);
-    font-size: 17px;
+    color: black;
+    font-size: 15px;
     margin-top: 35px;
-}
-.ul-footer li:hover {
-    color: white;
     cursor: pointer;
 }
 
@@ -45,9 +62,7 @@
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    text-align: center;
     padding: 10px;
-    font-size: 13px;
     margin-top: 80px;
     margin-right: 5px;
     box-shadow: 0px 5px 30px 0px rgba(0,0,0,0.3);
@@ -60,6 +75,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    color: white!important;
   }
   
   .user-avatar {
@@ -72,7 +88,7 @@
   .logout-button {
     background: transparent;
     border: none;
-    color: #333;
+    color: rgb(253, 249, 249);
     font-size: 16px;
     cursor: pointer;
     display: flex;
@@ -85,7 +101,7 @@
 
   .hr-color{
     margin-top: 50px;
-    color: black;
+    color: rgb(249, 242, 242)!important;
     width: 90px;
   }
 
